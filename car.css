@@ -1,6 +1,7 @@
 body{
-    background-color: cornflowerblue;
+    background-color:chocolate;
     margin: 10px;
+    
 
 }
 .ig{
@@ -10,14 +11,89 @@ body{
     gap:10px;
 }
 img{
-    width:300px ;
-    height:300px;
+    width:250px ;
+    height:150px;
     padding: 5px 5px;
     border-radius: 20px;
+}
+.we{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+ padding: 20pxs;
+}
+.po{
+    width:100px;
+    margin-top:0px;
+    padding-left: 2px;   
 }
 .container{
  background-color:cornsilk;
  margin-left: 20px; 
  padding-left: 5px;
+ justify-content: center;
+}
+.us{
+    padding-left: 2px;
+    width: 3px;
+    height:3px;
+    
+}
+.container{
+    background-color:cream;
+    padding-right: 5px 5px 5px 5px;
 
+}
+.ki{
+ margin-top: 20px;
+ padding: 20px;
+ justify-content: center;    
+}
+.icon{
+    width: 25px;
+    height: 30px;
+    display: flex;
+    justify-content: right;
+}
+button{
+    cursor: auto;
+    display:flex;
+    text-justify: auto;
+
+}
+.qu{
+    text-justify: distribute;
+    margin-top: 20px;
+}    
+hr{
+    border-color: black;
+    background-color: black;
+}
+@media(max-width:1024){
+    img{
+        width:100px ;
+        height:100px;
+        padding: 5px 5px;
+        border-radius: 20px; 
+    } 
+
+}
+
+@media(max-width:320){
+    img{
+        width:210px ;
+        height:100px;
+        padding: 5px 5px;
+        border-radius: 10px;  
+    }
+
+}
+@media(max-width:425){
+    img{
+        width: 50px ;
+        height:50px;
+        padding: 5px 5px;
+        border-radius: 20px; 
+    } 
 }
